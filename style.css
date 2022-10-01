@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+}
+
+.bg {
+  background: url(./emmanuel-ben-paul-z_UsTVm9GXQ-unsplash.jpg) top center/cover no-repeat;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  top: -30px;
+  left: -30px;
+  position: absolute;
+  filter: blur(0px);
+}
+
+.overlay {
+  font-size: 3rem;
+  color: rgb(49, 90, 130);
+}/*# sourceMappingURL=style.css.map */
